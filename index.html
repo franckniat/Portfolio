@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .content{
+            display: none;
+        }
+
+        .content.actived{
+            display: block;
+        }
+
+    </style>
+    <title>Franck NIAT</title>
+</head>
+<body>
+    <div id="mouse" class="ring"></div>
+    <div id="mouse_dot" class="dot"></div>
+
+    <div class="load-back">
+        <div class="loader" id="load">
+            <img src="img/logo 1 dark.png" alt="Logo Franck NIAT">
+            <h1>Hello, nice to meet you :)</h1>
+        </div>
+    </div>
+
+    <header class="topbar">
+        <nav>
+            <a href="#home" class="nav-link actived">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a  class="toggle-btn"><i class="bi bi-list"></i></a>
+        </nav>
+        <div class="collapse-menu">
+            <div>
+                <a href="#home" class="collapse_link actived">Home</a>
+                <a href="#about" class="collapse_link">About</a>
+                <a href="#skills" class="collapse_link">Skills</a>
+                <a href="#experience" class="collapse_link">Experience</a>
+                <a href="#contact" class="collapse_link">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero content actived" id="home">
+            <div>
+                <img src="img/Ma photo.png" alt="My picture">
+                <h1>MORNING GUY ! <br> MY NAME IS FRANCK NIAT BUT YOU CAN CALL ME 
+                    <br><span><i class="bi bi-at"></i>NIATO</span>
+                </h1>
+                <h3>STUDENT & FRONT END DEVELOPPER</h3>
+                <p>I'M AVAILABLE FOR FREELANCE OR FULL-TIME POSITION. CONTACT ME AND LET'S TALK <span>.</span></p>
+                <span><a href="#">About me <i class="bi bi-arrow-right"></i></a></span>
+            </div>
+        </div>
+
+        <div class="skills content" id="skills">
+            <div class="container">
+                <div class="skill">
+                    <h1>Skills</h1>
+                    <div class="theme"><h3>Web</h3></div>
+                    <div class="language">
+                        <div>
+                            <img src="img/html.png" style=" padding: 10px;background-color: rgba(250, 115, 4, 0.444);border: solid 0.5px rgba(250, 115, 4, 0.444); border-radius: 50%;" height="60px" width="60px" alt="HyperText Markup Language">
+                            <p style="color: rgb(250, 115, 4);">HTML</p>
+                        </div>
+                        <div>
+                            <img src="img/js.png" style=" padding: 10px;background-color: rgba(244, 244, 8, 0.413);border: solid 0.5px rgba(244, 244, 8, 0.413); border-radius: 50%;" height="60px" width="60px" alt="HyperText Markup Language">
+                            <p style="color: rgb(244, 244, 8);">Javascript</p>
+                        </div>
+                        <div>
+                            <img src="img/css.png" style=" padding: 10px;background-color: rgba(6, 111, 239, 0.413);border: solid 0.5px rgba(6, 111, 239, 0.413); border-radius: 50%;" height="60px" width="60px" alt="HyperText Markup Language">
+                            <p style="color: rgb(6, 111, 239);">Css</p>
+                        </div>
+                        <div>
+                            <img src="img/bootstrap 1.png" style=" padding: 10px;background-color: rgba(192, 12, 242, 0.413);border: solid 0.5px rgba(192, 12, 242, 0.413); border-radius: 50%;" height="60px" width="60px" alt="HyperText Markup Language">
+                            <p style="color: rgb(192, 12, 242);">Bootstrap</p>
+                        </div>
+                        <div>
+                            <img src="img/django 1.png" style=" padding: 10px;background-color: rgba(78, 165, 105, 0.413);border: solid 0.5px rgba(78, 165, 105, 0.413); border-radius: 50%;" height="60px" width="60px" alt="HyperText Markup Language">
+                            <p style="color: rgb(78, 165, 105);">Django</p>
+                        </div>
+                    </div>
+
+                    <div class="theme"><h3>Mobile</h3></div>
+                    <div class="language">
+                        <div>
+                            <img src="img/flutter 1.png" style=" padding: 10px;background-color: rgba(137, 178, 227, 0.413);border: solid 0.5px rgba(137, 178, 227, 0.413); border-radius: 55%;" height="60px" width="60px" alt="HyperText Markup Language">
+                            <p style="color: rgb(137, 178, 227);">Flutter</p>
+                        </div>
+                    </div>
+
+                    <div class="theme"><h3>Deployment</h3></div>
+                    <div class="language">
+                        <div>
+                            <svg data-testid="geist-icon" fill="none" height="60" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="60" style="color: #fff; padding: 10px;background-color: rgba(0, 0, 0, 0.853);border: solid 0.5px rgba(0, 0, 0, 0.853); border-radius: 55%;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2L2 19.7778H22L12 2Z" fill="currentColor" stroke="currentColor" stroke-width="1.5"/></svg>
+                            <p style="color: #000;">Vercel</p>
+                        </div>
+                    </div>
+
+                    <div class="theme"><h3>Security</h3></div>
+                    <div class="language">
+                        <div>
+                            <img src="img/kali.png" style=" padding: 5px;background-color: rgba(0, 0, 0, 0.413);border: solid 0.5px rgba(0, 0, 0, 0.413); border-radius: 50%;"  height="60px" width="60px" alt="Kali linux">
+                            <p style="color: #000;">Kali linux</p>
+                        </div>
+                        <div>
+                            <img src="img/fortinet.png" style=" padding: 5px;background-color: rgba(227, 17, 17, 0.413);border: solid 0.5px rgba(255, 0, 0, 0.413); border-radius: 50%;"  height="60px" width="60px" alt="Kali linux">
+                            <p style="color: #d81515;">Fortinet</p>
+                        </div>
+                    </div>
+
+                    <div class="theme"><h3>Virtualization</h3></div>
+                    <div class="language">
+                        <div>
+                            <img src="img/docker 1.png" style=" padding: 10px;background-color: rgba(13, 127, 241, 0.392);border: solid 0.5px rgba(2, 91, 180, 0.498); border-radius: 50%;" height="60px" width="60px" alt="Docker">
+                            <p style="color: rgb(13, 127, 241);">Docker</p>
+                        </div>
+                    </div>
+
+                    <div class="theme"><h3>Others</h3></div>
+                    <div class="language">
+                        <div>
+                            <img src="img/git 1.png" style="padding: 10px;background-color: rgba(234, 42, 9, 0.392);border: solid 0.5px rgba(216, 10, 10, 0.498); border-radius: 50%;" height="60px" width="60px" alt="Git">
+                            <p style="color: rgb(234, 42, 9);">Git</p>
+                        </div>
+                        <div>
+                            <img src="img/github 1.png" style="padding: 10px;background-color: rgba(12, 12, 12, 0.392);border: solid 0.5px rgba(0, 0, 0, 0.498); border-radius: 50%;" height="60px" width="60px" alt="Github">
+                            <p style="color: rgb(12, 12, 12);">Github</p>
+                        </div>
+                    </div>
+
+                    <div class="theme"><h3>Certifications</h3></div>
+                    <div class="language">
+                        <a class="skill-link" href="#"><i class="bi bi-arrow-up-right"></i> Fortinet NSE I</a>
+                        <a class="skill-link" href="#"><i class="bi bi-arrow-up-right"></i> Fortinet NSE II</a>
+                        <a class="skill-link" href="#"><i class="bi bi-arrow-up-right"></i> Fortinet NSE III</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="about content" id="about">
+            <div class="theme-about">
+                <h2>ABOUT</h2>
+                <p>
+                    Hi! I am a young computer enthusiast (programming, graphic design, data analysis, computer security, ...).
+                    I believe that alone we can work well but together we can do it better. I am 20 years old, FrontEnd developper and Student from Cameroon
+                    I like to listen to music and in my spare time I often read articles about development and new technologies.
+                </p>
+                <br>
+                <h3 style="text-decoration: underline;">LANGUAGES</h3>
+                <p>FRENCH <span>Native</span></p>
+                <p>ENGLISH <span>Fluent</span></p>
+                <p>DEUTSCH <span>Basic</span></p>
+                <div class="hobbies">
+                    <p>You can listen my favorite playlist on <a style="text-decoration: underline; color: #0e771d;" target="_blank" href="https://spotify.com">Spotify</a>.</p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1YzxJ4x3gl5ejmxmXj3X40?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience content" id="experience">
+            <div class="container">
+                <div class="work">
+                    <h2>PROJECTS</h2>
+                    <div class="experience_card">
+                        <div class="experience_header">
+                            <div class="left_elts">
+                                <img src="img/project1 1.png" height="200px" width="350px" alt="project1">
+                            </div>
+                            <div class="right_right_elts">
+                                <h4>Cuisinons camerounais</h4>
+                                <a href="#" title="Github" style="color: #000;"><i class="bi bi-github"></i> Github</a>
+                            </div>
+                        </div>
+                        <p>
+                            An application with which you can download recipes and even share you own recipes.
+                        </p>
+                    </div>
+                    <div class="experience_card">
+                        <div class="experience_header">
+                            <div class="left_elts">
+                                <img src="img/project2 1.png" height="200px" width="350px" alt="project2">
+                            </div>
+                            <div class="right_right_elts">
+                                <h4>Cuisinons camerounais 2</h4>
+                                <a href="#" title="Github" style="color: #000;"><i class="bi bi-github"></i> Github</a>
+                            </div>
+                        </div>
+                        <p>
+                            An application with which you can download recipes and even share you own recipes. With a possibility to ask assistance of master chefs. 
+                        </p>
+                    </div>
+                    <div class="experience_card">
+                        <div class="experience_header">
+                            <div class="left_elts">
+                                <img src="img/project3 1.png" height="200px" width="350px" alt="project1">
+                            </div>
+                            <div class="right_right_elts">
+                                <h4>Estate Portal</h4>
+                                <a href="#" title="Github" style="color: #000;"><i class="bi bi-github"></i> Github</a>
+                            </div>
+                        </div>
+                        <p>
+                            An application with which you can buy and rent estate; With a possibility of posting sales announcements.
+                        </p>
+                    </div>
+                    <div class="experience_card">
+                        <div class="experience_header">
+                            <div class="left_elts">
+                                <img src="img/project4 1.png" height="200px" width="350px" alt="project1">
+                            </div>
+                            <div class="right_right_elts">
+                                <h4>Numeric Library</h4>
+                                <a href="#" title="Github" style="color: #000;"><i class="bi bi-github"></i> Github</a>
+                            </div>
+                        </div>
+                        <p>
+                            An application with which students can download courses and internship report.
+                        </p>
+                    </div>
+                    <h2>INTERNSHIP</h2>
+                    <div class="experience_card">
+                        <div class="experience_header">
+                            <div class="left_elts">
+                                <h3>SMART-SECURES</h3>
+                                <p>Intern</p>
+                            </div>
+                            <div class="right_right_elts">
+                                <p><i class="bi bi-calendar-event"></i> July 2022 - Septembre 2022</p>
+                                <p><i class="bi bi-geo"></i> Douala Cameroon</p>
+                            </div>
+                        </div>
+                        <p>Our mission was to set up a real estate presentation platform, 
+                            more specifically my task was to create a model of the platform and then design the interfaces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact content" id="contact">
+            <div class="container">
+                <div class="theme-contact">
+                    <h2>CONTACT</h2>
+                    <div class="contact-content">
+                        <div>
+                            <h3>EMAIL</h3>
+                            <a target="_blank" href="mailto:niatmanuel2002@gmail.com"><i class="bi bi-arrow-up-right"></i> niatmanuel2002@gmail.com</a>
+                        </div>
+                        
+                        <div class="contact-link">
+                            <h3>SOCIALS MEDIAS</h3>
+                            <a style="color: #000;" target="_blank" href="https://github.com/franckniat"><i class="bi bi-github"></i> Github</a><br><br>
+                            <a style="color: #c40b6e;" target="_blank" href="https://instagram.com/itsniatfranck"><i class="bi bi-instagram"></i> Instagram</a><br><br>
+                            <a style="color: #0c50b8;" target="_blank" href="https://www.linkedin.com/in/franck-niat/"><i class="bi bi-linkedin"></i> LinkedIn</a><br><br>
+                            <a style="color: #3e73c1;" target="_blank" href="https://www.twitter.com/manuel_niat"><i class="bi bi-twitter"></i> Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br><br><br>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

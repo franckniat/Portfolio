@@ -1,0 +1,70 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+*{
+    box-sizing: border-box;
+}
+
+@keyframes float{
+    0%{
+        margin-top: 0px;
+    }
+    50%{
+        margin-top: 30px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+
+@keyframes loader{
+    from{
+        opacity: 100%;
+        display: block;
+    }
+    to{
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes load{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes float-right{
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: 25px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+
+body{
+    scroll-behavior: smooth;
+    z-index: 50000;
+    font-family: 'Rockwell';
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+@font-face {
+    font-family: 'Drafting';
+    src: url(../fonts/Drafting.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Kingsmen';
+    src: url(../fonts/Kingsmen_D.otf)format('truetype');
+}
