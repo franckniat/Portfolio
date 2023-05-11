@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Drafting';
+    src: url(../fonts/Drafting.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Kingsmen';
+    src: url(../fonts/Kingsmen_D.otf)format('truetype');
+}
+
 @keyframes float{
     0%{
         margin-top: 0px;
@@ -55,16 +64,7 @@
 body{
     scroll-behavior: smooth;
     z-index: 50000;
-    font-family: 'Rockwell';
+    font-family: 'Kingsmen';
     font-size: 18px;
     color: rgba(0, 0, 0, 0.89);
-}
-
-@font-face {
-    font-family: 'Drafting';
-    src: url(../fonts/Drafting.ttf)format('truetype');
-}
-@font-face {
-    font-family: 'Kingsmen';
-    src: url(../fonts/Kingsmen_D.otf)format('truetype');
 }

@@ -11,12 +11,13 @@ const CollapseMenu = document.querySelector('.collapse-menu')
 
 toggleBtn.onclick = function(){
     CollapseMenu.classList.toggle('open')
-
+    /*
     const isOpen = CollapseMenu.classList.contains('open')
 
     toggleBtnIcon.classList = isOpen
     ?'bi bi-x-lg'
     :'bi bi-list'
+    */
 }
 
 var link = document.querySelectorAll('.topbar nav .nav-link')
@@ -49,13 +50,18 @@ for(var i = 0; i < col_link.length; i++){
         if(this.classList.contains('actived')){
             return false
         }
-        document.querySelector('.collapse_link.actived').classList.remove('actived')
+        /*document.querySelector('.collapse_link.actived').classList.remove('actived')
 
-        this.classList.toggle('actived')
+        this.classList.toggle('actived')*/
 
         div.querySelector('.content.actived').classList.remove('actived')
 
         div.querySelector(this.getAttribute('href')).classList.toggle('actived')
+
+        document.querySelector('.collapse-menu').classList.remove('open')
+
+        /*toggleBtnIcon.classList.remove('bi bi-x-lg')
+        toggleBtnIcon.classList.add('bi bi-list')*/
         
     })
 }
@@ -69,3 +75,7 @@ window.addEventListener("mousemove", (e) => {
     mouse_dot.style.top = e.pageY + "px";
     mouse_dot.style.left = e.pageX + "px";
 });
+
+const today_time = Date.now()
+
+console.log(today_time)
